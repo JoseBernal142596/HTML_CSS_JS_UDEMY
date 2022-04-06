@@ -1,0 +1,15 @@
+h1 {
+    color:brown;
+    text-align:center;
+}
+
+.sonido{
+    color: firebrick;
+    font-size: 2.5em;
+}
+.enviar{
+    color:darkgoldenrod;
+    vertical-align:bottom;
+    font-size: 2.5em;
+
+}

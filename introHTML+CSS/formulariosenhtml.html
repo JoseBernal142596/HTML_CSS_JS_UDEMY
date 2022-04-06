@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML</title>
+</head>
+<body>
+  <div>
+  <h1>Formularios en HTML</h1>   
+<p>Para crear un formulario en HTML, utilizamos a etiqueta < form> < /form>.
+   <br>
+   Para que el usuario nos dé información como su nombre, apellido, etc usamos la etiqueta input. 
+</p>
+  </div class="formulario1">
+
+  <form>
+      <!--Utilizamos label (etiqueta) para agregarle un texto a la etiqueta y for para indicar a cuál input va-->
+      <label for="nombre">Ingrese su nombre</label> <br/>
+     <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre"/><br/><br/>
+     
+     <!--Utilizamos Placeholder para escribir un texto en el cuadro de la pregunta-->
+     <label for="apellido">Ingrese su apellido</label> <br/>
+     <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido"/><br/><br/>
+    </form> 
+
+     <p>Para validar un formulario, es decir que el formulario no se envie hasta que los campos del mismo estén completos
+     utilizamos el atributo de required </p>
+     <form>
+    <label for="identificacion">Ingrese su identificación</label> <br/>
+    <input type="text" id="identificacion" name="identificacion" placeholder="Ingrese su apellido" required="true"/><br/><br/>
+     
+     <br><br>
+
+     <input type="submit" value="Enviar"/><br/> <br>
+     <input type="submit" value="Envíar sin validar" formnovalidate="formnovalidate"/>
+    <!--Usamos el atributo formnovalidate cuando queremos que el formulario no sea obligatorio de envíar o validar-->
+  </form>
+</div>
+<div class="formulario_get-post">
+  <h2>Método GET y POST HTTP</h2>
+   <p>
+    Por lo general en las URL se puede ver la información del formulario. Por ejemplo formulariosenhtml.html?<span style="color:#457b9d; font-weight:bold;">nombre=Juan&apellido=Gutiérrez</span>
+    lo que está en azul se le conoce como <b>Query string</b> que vamos a enviar hacia el servidor.<br/> <br>
+    Sin embargo, si tenemos un campo sensible o privado como la contraseña y no queremos que se vea en el Query string entonces debemos cambiar el
+    tipo de método para envíar la información al servidor. <br><br>
+    Por defecto, el tipo de método que se usa para enviar la información al servidor es el <strong>método GET</strong>, pero podemos utilizar el <strong>método POST</strong>
+    para enviar este formulario hacia el servidor y la información en lugar de que se agregue en la URL, se va a envíar dentro del cuerpo del mensaje que se envía hacia el servidor. <br><br>
+    Para utilizar el metodo post utilizamos el atributo method="post"
+    < form method="post" >
+   </p>
+
+   <form method="post">
+
+    <label for="nombre1">Ingrese su nombre</label> <br/>
+    <input type="text" id="nombre1" name="nombre1" placeholder="Ingrese su nombre"/><br/><br/>
+    
+    <label for="apellido1">Ingrese su apellido</label> <br/>
+    <input type="text" id="apellido1" name="apellido1" placeholder="Ingrese su apellido"/><br/><br/>
+
+   <label for="identificacion1">Ingrese su identificación</label> <br/>
+   <input type="text" id="identificacion1" name="identificacion1" placeholder="Ingrese su apellido" required="true"/><br/><br/>
+    
+   <label for="contraseña">Ingrese su contraseña </label> <br/>
+   <input type="password" id="contraseña" name="contraseña" placeholder="Ingrese su contraseña" required="true"/><br/><br/>
+
+    <br><br>
+    <label for="correo">Ingrese su e-mail</label><br>
+   <input type="email" id="correo" name="correo" placeholder="alguienforexample@mail.com" required="false"/>
+    <br><br>
+    <label for="edad">Ingrese su edad</label> <br>
+    <input type="number" id="edad" name="edad" placeholder="Ingrese su edad" required="false" />
+    <br/> <br/>
+    <label for="fechanacimiento">Ingrese su fecha de nacimiento</label><br>
+    <input type="date" id="fechanacimiento" name="fechanacimiento" >
+    <br><br>
+    <p>Para agregar valores numéricos con decimales, utilizamos step="any"</p>
+    <label for="numerodecimal">Ingrese un numero decimal o con un decimal</label>
+    <input type="number" id="numerodecimal" name="numerodecimal" step="any">
+    <br><br>
+    <input type="submit" value="Enviar"/><br/> <br>
+    <input type="submit" value="Envíar sin validar" formnovalidate="formnovalidate"/>
+    </form>
+  </div>
+    <br><br>
+
+<div class="formulario_checkbox-radiobutton">
+    <h1>Radiobutton Y Checkbox</h1>
+
+    <p>Los radiobutton se utilizan cuando solo queremos escoger una opción de la encuesta y el Checkbox cuando queremos escoger varias</p> <br>
+    <h2>Ejemplo radiobutton</h2> <br>
+    <p>Este es un ejemplo de un radiobutton. Radiobutton nos permite escoger entre varias opciones.</p> <br><br>
+    
+    <form>
+    <label>Género</label> <br>
+
+    <input type="radio" id="femenino" name="femenino" value="femenino">
+    <label for="femenino">Femenino</label>
+    <br>
+    <input type="radio" id="masculino" name="masculino" value="masculino">
+    <label for="masculino">Masculino</label>
+   <br><br>
+   <p>Para que solamente se envíe un valor vamos a dejar el name igual a todos los input para que solo se envíe una de las opciones</p> <br><br>
+
+   <label>Género</label> <br>
+     <input type="radio" id="femenino1" name="genero" value="femenino">
+     <label for="femenino1">Femenino</label>
+     <br>
+     <input type="radio" id="masculino1" name="genero" value="masculino">
+     <label for="masculino">Masculino</label> <br> <br>
+
+     <h2>Formularios Checkbox</h2><br><br>
+     <p>Este es un ejemplo de un formulario Checkbox. Los formularios Checkbox son utilizados cuando queremos seleccionar varias opciones</p> <br><br>
+     
+     <label>Género musical preferido</label><br>      
+
+     <input type="checkbox" id="salsa" name="musica" value="salsa">
+     <label for="salsa"> Salsa</label><br>
+
+     <input type="checkbox" id="merengue" name="musica" value="merengue">
+     <label for="merengue">Merengue</label> <br><br>
+     
+     <input type="checkbox" id="metal" name="musica" value="metal">
+     <label for="metal">Metal \m/ </label> <br>
+     
+     <input type="checkbox" id="rock" name="musica" value="rock">
+     <label for="rock">Rock</label>
+   <br><br><br>
+    <input type="submit" value="Enviar"/><br/> <br>
+    <input type="submit" value="Envíar sin validar" formnovalidate="formnovalidate"/>
+    
+  </form>
+</div>
+
+<div>
+  <h1>Elementos Select y TextArea en formularios HTML</h1>
+   <h2>Elementos select</h2>
+  <p>Utilizamos select cuando queremos elegir algún o algunos elementos de una lista a un usuario</p>
+    
+    <h3>Elementos select donde solo se puede elegir una opción</h3>
+    <p>Este es un ejemplo de  un elemento select cuando queremos elegir una sola opción de la lista. <br>
+       Para eso utilizamos las etiquetas select (para crear la lista) y option (para crear las opciones).</p>
+
+    <form>
+    
+    <label for="autos">Marca favorita de autos</label><br>
+    <select id="autos" name="autos">
+      
+      <option value="HYUNDAI">HYUNDAI</option>
+
+      <option value="chevrolet">Chevrolet</option>
+
+      <option value="kia" selected="true">KIA</option> <br/>
+      <!--Utilizamos selected="true" para que aparezca seleccionado por defecto al momento de que el usuario vea la lista-->
+      <br/><br/><br/>
+      <input type="submit" value="Enviar"/><br/> <br>
+      <input type="submit" value="Envíar sin validar" formnovalidate="formnovalidate"/>
+
+    </select>
+    </form>
+    
+    <h3>Elementos select donde se puede elegir varias opciones</h3>
+       
+    <p>Este es un ejemplo de  un elemento select cuando queremos elegir varias opciones de la lista. <br>
+       Para eso utilizamos las etiquetas select (para crear la lista) y option (para crear las opciones) y el atributo multiple="true".</p>
+
+    <form>
+    <label for="autos1">Marca favorita de autos</label><br>
+
+    <select id="autos1" name="autos1" multiple="true">
+      
+      <option value="VolksWagen">VolksWagen</option>
+
+      <option value="mazda">Mazda</option>
+
+      <option value="Audi" selected="true">Audi</option>
+
+      <option value="skoda">Skoda</option>
+
+      <option value="Toyota">Toyota</option>
+
+      <option value="volvo">Volvo</option>
+
+      <br/><br/><br/>
+      <input type="submit" value="Enviar"/><br/> <br>
+      <input type="submit" value="Envíar sin validar" formnovalidate="formnovalidate"/>
+
+    </select>
+
+   </form>
+   
+   <h2>TextArea</h2>
+   <p>TextArea sirve para que el usuario pueda escribir texto en un espacio como comentarios y demás. Este es un ejemplo</p>
+    
+   <form>
+     <label for="comentario">Comentarios</label><br>
+     <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea><br>
+   <!--Cols y rows son las columnas y los renglones que queremos que tenga el comentario-->
+   <input type="submit" value="Enviar"/><br/> <br>
+   </form>
+</div>
+<br><br>
+ <div>
+   <h1>Formularios con marcos en HTML</h1>
+   <p>Para crear formularios con marcos en HTML, utilizamos la etiqueta fieldset</p>
+
+   <form action="mi_servidor" target="_blank" autocomplete="off">
+     <!--Utilizamos action="" para enviar la información del usuario hacia nuestro servidor o alguna url del lado del servidor-->
+     <!--Utilizamos target="_blank" para indicar que la reespuesta del formulario la veamos en otra pestaña-->
+     <!--Utilizamos autocomplete="off" para que no aparezcan los datos utilizados anteriormente-->
+     
+    <fieldset>
+
+      <legend>Ejemplo formulario con marcos</legend>
+      <!--Utilizamos legend para el nombre del marco del formulario-->
+
+    <label for="nombre">Ingrese su nombre</label> <br/>
+    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre"/><br/><br/>
+    
+    
+    <label for="apellido">Ingrese su apellido</label> <br/>
+    <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido"/><br/><br/>
+   </form> 
+    
+   <label for="identificacion">Ingrese su identificación</label> <br/>
+   <input type="text" id="identificacion" name="identificacion" placeholder="Ingrese su apellido" required="true"/><br/><br/>
+    
+   <label for="codigo_usuario">Codigo Usuario</label> <br/>
+    <input type="text" id="codigo_usuario" name="codigo_usuario" readonly="true" value="12342455"/><br/><br/>
+    <!--Este es una casilla donde muestra una información que muestra el formulario y que el usuario no puede modificar-->
+
+    <label for="codigo_clase">Codigo Clase</label> <br/>
+    <input type="text" id="codigo_clase" name="codigo_clase" readonly="true" value="123432" disabled="true"/><br/><br/>
+    <!--Este es una casilla donde muestra una información que muestra el formulario y que el usuario no puede modificar. Además de que ya se muestra como una opción 
+      inhabilitada y tampoco se envía hacia el servidor-->
+    
+    <input type="hidden" id="sistema" name="sistema" value="sistema_usuario">
+    <!--Este es un ejemplo de un input de un fomulario el cuál no lo verá el usuario pero la información se enviará hacia el servidor-->
+    
+    <br><br>
+
+    <input type="submit" value="Enviar"/><br/> <br>
+    <input type="submit" value="Envíar sin validar" formnovalidate="formnovalidate"/>
+    <input type="reset" value="Restablecer">
+    <!--Utilizamos <input type="reset" value="Restablecer"> para crear un botón para borrar el formulario-->
+  </fieldset>
+   </form>
+ </div>
+ <br><br><br>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body{
+    background-color: yellow ;
+
+}
+
+
+h1{ 
+    color:red;
+    font-family: cursive;
+    font-style: italic;
+}
+p1{
+    color: #808080;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+p {
+    color: #BA4A00;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: bold;
+}
+p4{
+    color: aquamarine;
+    background-color:black;
+    padding: 15px;
+    /*Esta es como la segunda caja y lo que hace es rodear nuestro contenido y es el espacio de nuestro contenido y el borde
+    Si queremos modificar la parte de arriba escribimos top.
+    La de abajo: bottom; derecha: right; izquierda: left*/
+    border: 10px solid powderblue;
+    /*Si queremos modificar la parte de arriba escribimos top.
+    La de abajo: bottom; derecha: right; izquierda: left */
+    /*margin:50px; * /
+    /*Si queremos modificar la parte de arriba escribimos top.
+    La de abajo: bottom; derecha: right; izquierda: left */
+    
+    /*margin-top: 40px;
+    margin-right: 10px;
+    margin-left:20px;
+    margin-left: 10px;*/
+    margin: 40px 10px 20px 10px;
+    text-align: center;
+
+}

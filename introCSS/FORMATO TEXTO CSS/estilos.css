@@ -1,0 +1,40 @@
+h1 {
+    color:#ef476f;
+    background-color: beige;
+    text-align: center;
+    text-transform: uppercase;
+    /*Text transform se utiliza si queremos que todo el texto sea en mayúscula, minúscula entre otros estilos*/
+    text-shadow: 2px 2px 2px #ced4da;
+    /*2px (eje x)  2px (eje y) y la última es qué tanto se difumina la sombra*/
+    letter-spacing: -2px ;
+    /*Utilizamos letter-spacing para especificar el espacio entre letras*/
+    word-spacing: 7px ;
+    /*Word-spacing sirve para separar las palabras*/
+    text-decoration: overline underline;
+
+
+}
+
+.caja{
+    padding: 15px ;
+    margin: auto;
+    width: 70%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+}
+
+.texto{
+    text-align: justify;
+    /*direction: rtl;*/ /*Se utiliza para declarar la orientación del texto (rtl: right to left (derecha a izquierda))*/
+    text-decoration: underline;
+    text-indent: 30px; /*Sirve para dar un espacio al inicio del parrafo*/
+
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+    line-height: 2; /*Es el espacio entre lienas (usualmente se usa el 1.2)*/
+    white-space: inherit; /*Sirve para indicar si el texto está en el parrafo o sigue de largo*/
+    text-shadow: 1px 1px 2px #ced4da;
+
+}

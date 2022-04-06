@@ -1,0 +1,21 @@
+h1 {
+    text-align:center;
+    color:darkcyan;
+}
+div {
+    border: 3px solid firebrick;
+}
+
+
+.absoluto{
+    position: absolute;
+    border: 3px solid cyan;
+    bottom: 0;
+    right: 0;
+}
+
+.relativo{
+    width: 500px;
+    height: 300px;
+    position: relative;
+}

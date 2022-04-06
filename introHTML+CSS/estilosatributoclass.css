@@ -1,0 +1,57 @@
+/* 
+Utilizamos al asterisco en CSS para dar estilo a toda la página
+*{
+    
+    margin:0;
+    padding:0;
+}
+*/
+
+
+h1{
+    color:cadetblue;
+    font-family:fantasy;
+    margin: 15px;
+}
+h2{
+    color: red;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: arial;
+}
+
+div{
+    border: 10px solid burlywood;
+    background-color: beige ;
+    text-align: center;
+}
+
+.divdiferente{
+    /*Utilizamos el punto+nombre de la clase para dar estilo a una clase. En este caso es a la clase divdiferente*/
+    border: 10px solid rgb(29, 40, 104);
+    background-color: rgb(127, 216, 238) ;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.divdiferente2{
+    /*Utilizamos el punto+nombre de la clase para dar estilo a una clase. En este caso es a la clase divdiferente*/
+    border: 10px solid rgb(15, 65, 8);
+    background-color: rgb(10, 172, 10) ;
+    text-align: center;
+    font-family: cursive;
+}
+.ejemplo_span{
+    color:rgb(0, 240, 248);
+    font-family:cursive;
+    margin: 15px;
+}
+
+#ejemplo_id{
+    /*Este es un ejemplo de una clase en CSS cuando utilizamos el identificador ID*/
+    color:rgba(8, 8, 8, 0.692);
+    font-family:cursive;
+    margin: 15px;
+    background-color: rgb(226, 208, 184);
+}

@@ -1,0 +1,72 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#7209b7, #3f37c0 );
+}
+.contenedor{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background: rgba(0,0,0,.5);
+    border-radius: 10px;
+
+}
+
+.contenedor h2{
+    /*Para editar un titula, parrafo, etc., que está en una clase, indicamos la clase y la etiqeuta que vamos a editar*/
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: cursive;
+}
+
+.contenedor  .elemento label{
+    /*De esta manera se edita una clase que está en una clase y label es para editar las etiquetas que estan con sus input*/
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    border: 1px solid #fff;
+    margin-bottom: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+
+
+}
+.contenedor .elemento input[type="submit"]{
+/*Para editar un botón de nviar, borrar y demás agregamos la clase donde está y el type para indicar cuál botón vamos a editar, en este caso el de enviar*/
+   background-color: rgb(255, 174, 0);
+   border: none;
+   letter-spacing: 5px;
+   /*Utilizamos letter-spacing para separar cada una de las letras*/ 
+   text-transform: uppercase;
+   /*Utilizamos text-transform: upercase; para indicar que queremos que todo el texto del botón en este caso se vea en mayúsculas*/
+   cursor: pointer;
+   padding: 15px;
+   margin-top: 30px;
+
+}
+
+.contenedor .elemento input[type="reset"]{
+    background-color: rgb(255, 0, 0);
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}

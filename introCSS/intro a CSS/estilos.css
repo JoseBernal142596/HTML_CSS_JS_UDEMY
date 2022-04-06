@@ -1,0 +1,11 @@
+h1 {
+    color:brown !important;
+    /*Agregamos !important cuando queremos que este atributo se vea y no el que tiene la etiqueta*/
+    text-align: center;
+
+}
+
+p, div {
+    /*Así se agrupa en CSS dos o más etiquetas*/
+    color:darkslategray
+} 

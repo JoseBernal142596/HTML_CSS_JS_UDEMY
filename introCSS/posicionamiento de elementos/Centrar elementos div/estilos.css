@@ -1,0 +1,13 @@
+h1 {
+    text-align:center;
+    color:chocolate;
+}
+
+div{
+    border: 3px solid firebrick;
+    width: 50%; /*Las ventajas de utilizar porcentajes en los tamaños es que queda del mismo tamaño en las distintas pantallas en que vayamos a ver la página
+    en px es un valor fijo por lo que no se adapta a la pantalla*/
+    margin: auto
+    /*Para centrar un div utilizamos margin:auto ya que va a tener el mismo 
+    espacio en la izquierda como e la derecha*/
+}

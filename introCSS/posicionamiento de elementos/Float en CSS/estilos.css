@@ -1,0 +1,38 @@
+h1{
+    color: darkgoldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.contenedor{
+    border: 3px dashed goldenrod;
+    width: 30%;
+    height: 150px;
+    overflow: auto;
+
+}
+
+div.contenedor.ejemplo1{
+    border: 3px dashed goldenrod;
+    width: 30%;
+    height: 150px;
+    overflow: auto;
+    float: left; /*La propiedad Float sirve para indicar dónde van a ir los elementos, por ejemplo si van a la derecha, izquierda o alguna otra parte en una misma sección*/
+}
+div.contenedor.ejemplo2{
+    float: left;
+}
+div.contenedor.ejemplo2.contenedor1{
+    border: 3px dashed greenyellow;
+
+}
+
+div.contenedor.ejemplo2.contenedor2{
+    border: 3px solid cornflowerblue;
+    float: right;
+}
+
+div.contenedor.contenedor3{
+    clear: both;
+    border: 3px solid slateblue;
+    margin: auto;
+}

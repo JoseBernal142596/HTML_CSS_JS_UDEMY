@@ -1,0 +1,22 @@
+ol{
+    list-style: none;
+    counter-reset: contador;
+}
+ol li{
+    counter-increment: contador;
+}
+ol li::before{
+    content: " Tema: " counter(contador) ")";
+    color: #ff6f00;
+
+    /*Utilizamos ol li :: before cuando queremos que escriba algo antes del contenido de la lista
+    ejemplo: "actividad" 1 
+              "actividad" 2*/
+}
+
+ol li ::after{
+    content: ".";
+    /*Utilizamos ol li :: before cuando queremos que escriba algo despues del contenido de la  lista
+    ejemplo: "actividad" 1 
+              "actividad" 2*/
+}

@@ -1,0 +1,9 @@
+body{
+    background-color: dodgerblue;
+    color: cornsilk;
+    background-image: url("/introCSS/FONDOS EN CSS/imagenes/fondo.jpg");
+    background-repeat: no-repeat; 
+    background-position: left top;
+
+
+}

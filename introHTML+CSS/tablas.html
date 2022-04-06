@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilostabla1.css">
+    <title>Tablas en HTML</title>
+</head>
+<body>
+    <table>
+        <caption>Ejemplo de tablas 1</caption>
+        <!--Utilizamos la etiqueta caption para gregarle un título a una tabla (Esta siempre va después de table)-->
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>E-mail</th>
+        </tr>
+       <tr>
+           <td>Camilo</td>
+           <td>Perez</td>
+           <td>juanp@gmail.com</td>
+       </tr>
+   <tr>
+       <td>Carolina</td>
+       <td>Gomez</td>
+       <td>carolina@gmail.com</td>
+   </tr>
+    </table>
+    <!-- -* Para crear una tabla utilizamos la etiqueta <table>
+        -* Para crear un renglón en la tabla utilizamos la etiqueta <tr>
+        -* Para hacer un encabezado en la tabla utilizamos la etiqueta <th>    
+        -* Utilizamos la etiqueta <td> para agregar los demás contenidos de la tabla, es decir alguna celda o algún dato-->
+            <br/><br/>
+            <table>
+                <caption>Ejemplo de tablas 2</caption>
+                <!--Utilizamos la etiqueta caption para gregarle un título a una tabla (Esta siempre va después de table)-->
+                <tr>
+                    <th colspan="2">Nombre</th>
+                    <!--Utilizamos colspan para unir dos celdas que están al lado (columnas)-->
+                    <th>E-mail</th>
+                </tr>
+               <tr>
+                   <td>Camilo</td>
+                   <td>Perez</td>
+                   <td rowspan="2">juanp@gmail.com</td>
+                   <!--Utilizamos rowspawn para unir dos celdas que están una encima de otra (renglones)-->
+               </tr>
+           <tr>
+             
+           </tr>
+           <tr>
+            <td>Carolina</td>
+            <td>Gomez</td>
+            <td>carolina@gmail.com</td>
+        </tr>
+            </table>
+</body>
+</html>

@@ -1,0 +1,42 @@
+table,th,td{
+    border:1px solid black;
+    border-collapse:collapse;
+    /*border-collapse sirve para quitar el espacio en las lineas de la tabla*/
+    padding: 5px;
+}
+/*Utilizamos: 
+table{
+    width: 100%;
+}
+Si queremos que la tabla ocupe toda la pantalla
+*/
+table{
+    width: 100%;
+}
+th{
+    color:ghostwhite;
+    background-color: rgb(228, 26, 43);
+    font-family: cursive;
+
+}
+td{
+    text-align: center;
+    font-family: cursive;
+    
+}
+tr:nth-child(even){
+    /*Utilizamos tr:nth-child(even) para modificar los renglones pares*/
+    background-color: beige;
+}
+tr:nth-child(odd){
+    /*Utilizamos tr:nth-child(odd) para modificar los renglones impares*/
+    background-color: aliceblue;
+}
+
+caption{
+    color: cadetblue;
+   font-family: cursive;
+   font-size: 45px;
+   line-height: 70px;
+
+}

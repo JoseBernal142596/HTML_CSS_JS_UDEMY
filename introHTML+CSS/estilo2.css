@@ -1,0 +1,41 @@
+body {
+    background-color: beige;
+    background-image: url(imagenes/fondo2.jpg);
+}
+
+h1{
+    color: blanchedalmond;
+    font-family: cursive;
+    background-image: url(imagenes/fondo2)
+}
+
+h2{
+    color: blanchedalmond;
+    font-family: cursive;
+    background-image: url(imagenes/fondo2)
+}
+
+a:link{ /*a:link es el link antes de ser seleccionado */
+  color: #ffffffff;
+  font-family: cursive;
+  text-decoration: none;
+  /*text-decoration sirve para indicar el subrayado, en este caso con none no tiene subrayado*/  
+}
+
+a:visited{/*a:visited es el link despues de ser seleccionado */
+  color: orangered;
+  font-family: cursive;
+  text-decoration: none;  
+}
+
+a:hover{/*a:hover es el mouse sobre el link*/
+  color: goldenrod;
+  font-family: cursive;
+  background-color: rgba(3, 113, 121, 0.226);
+}
+
+a:active{/*a:active es el link cuando lo estamos selccionando*/
+    color: goldenrod;
+    font-family: cursive;
+    background-color: rgba(5, 221, 236, 0.5);
+}

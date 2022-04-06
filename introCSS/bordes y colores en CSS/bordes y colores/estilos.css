@@ -1,0 +1,33 @@
+h1 {
+    color:brown;
+    text-align:center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 10px solid brown;
+
+}
+
+section.parrafo1{
+    color:darkcyan;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(226, 187, 137,.5);
+    border: 10px dotted red;
+    /*Dotted también es una línea punteada*/
+
+}
+
+section.parrafo2{
+    color:aliceblue;
+    font-family:cursive;
+    background-color:rgb(26, 26, 228);
+    border: 10px dashed chocolate;
+    /*Utilizamos dashed cuando queremos que el border sea una línea punteada*/
+}
+
+section.parrafo3{
+    color:rgb(238, 145, 24);
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:darkolivegreen;
+    border: 10px double gold;
+ /*Utilizamos double cuando queremos que sea un doble borde*/   
+
+}

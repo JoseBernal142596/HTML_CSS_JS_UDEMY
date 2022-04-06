@@ -1,0 +1,16 @@
+h1{
+    color:cadetblue;
+    font-family:fantasy;
+}
+h2{
+    color: red;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: arial;
+}
+div{
+    border: 10px solid burlywood;
+    background-color: beige ;
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+*{ /*Utilizamos *{ para indicar que ese estilo va a ir a todo el documento*/
+    background-color:gold;
+}
+
+#parrafocon_id{
+    background-color:aqua;
+    text-align:center;
+}
+
+.parrafocon_class{
+    background-color:black;
+    color:white;
+}

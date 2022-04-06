@@ -1,0 +1,14 @@
+h1 {
+    text-align:center;
+    color:darkcyan;
+}
+div {
+    border: 3px solid firebrick;
+}
+
+
+.sticky{
+    position: sticky;
+    border: 3px solid cyan;
+    top: 0;
+}

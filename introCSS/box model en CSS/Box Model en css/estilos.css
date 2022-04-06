@@ -1,0 +1,65 @@
+h1{
+    color: chocolate;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+div{
+    padding: 10px 15px 5px 3px; /*Padding es el espacio entre nuestro contenido y el borde*/
+    border: 15px solid #457b9d;
+    margin: 20px;
+    font-family: Arial;
+    /*Para dar altura y el ancho utilizamos width y height*/
+
+    width: 300px; /*Este es el ancho solamente del contenido, 
+    para el total tenemos que sumar el padding (izq y derecho), y el ancho de nuestro borde (izq y derecho)
+    En este caso, el witdth total sería 350 (padding=10px + border=15px +margin=20px)*/
+    
+    /*También se puede escribir en %*/
+
+    text-align: center;
+    outline: 10px outset #a8dadc;
+    /*Outline  es el espacio entre el border y el margin*/
+
+    outline-offset: 10px ;
+    /*Es el espacion entre el outline y el borde y solamente es un valor*/
+
+    box-sizing:border-box;
+    /*Utilizamos Box-sizing para establecer un tamaño predetermiando para nuestro contenido*/
+   
+
+}
+
+.p1{
+    width:max-content;
+
+    /*Utilizamos width:max-content cuando la pantalla es menor a los pixeles 
+    que pusimos y aparece la barra para ir a la izquierda o derecha*/
+}
+
+.p2 {
+    max-width: 300px;
+
+    /*A diferencia de width: max-content, max-width se va a ajustar al contenido de la pantalla
+    pero no va a crecer más de 300px en este caso*/
+}
+
+.p3{
+    margin: auto;
+}
+
+p.interno{
+    margin: inherit;
+/*Inherit lo que hace es heredar una propiedad. Por ejemplo en este caso, p está heredando 
+el margen del div*/
+}
+
+.collapse1{
+    margin: 20px;
+
+}
+
+.collapse2{
+    margin: 30px;
+
+}

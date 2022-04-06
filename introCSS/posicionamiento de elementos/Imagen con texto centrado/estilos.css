@@ -1,0 +1,27 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: brown;
+}
+
+div.contenedor{
+    position: relative;
+    border: 3px dashed greenyellow;
+    width: 30%;
+    margin: auto;
+}
+
+img.mustang-imagen{
+   opacity: .5;
+}
+
+div.texto-centro_imagen{
+    position: absolute;
+    top: 50%;
+    border: 1px solid blue;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}

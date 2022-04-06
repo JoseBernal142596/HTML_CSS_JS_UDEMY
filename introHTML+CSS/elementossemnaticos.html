@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos semánticos en HTML</title>
+    <link rel="stylesheet" href="estilosetiquetassemanticas.css">
+</head>
+
+<body>
+
+    <header> <!--En header van todos los elementos del cabecero-->
+         <h1>Etiquetas semánticas en HTML:5</h1>
+    </header>
+
+    <nav> <!--Utilizamos nav para crear barras de navegación-->
+        <a href="#">Inicio</a> <!--Utilizamos #algunid en el link para indicar que vaya a alguna parte de la página. En este caso, queremos que se quede donde está-->
+        <a href="formulariologin.html" target="_blank">Iniciar sesión</a>
+        <a href="#">Pie de página</a>
+        <a href="#">Contacto</a>
+        <a href="#">Acerca de</a>
+    </nav>
+
+    <section> <!--Section funciona igual que un div, crea un nuevo blaque o un espacio-->
+        <h2>Sección 1</h2>
+        <p>Información de la sección</p>
+        <aside> <!--Información extra de la sección-->
+            <p>Nombre del autor</p>
+        </aside>
+    </section>
+
+    <section>
+            <article> <!--Los artículos son elementos totalmente independientes y pueden ir dentro o fuera de una sección-->
+             <h2>Sección 2</h2>
+            </article>
+
+            <article>
+                <h3>Artículo 2</h3>
+            </article>
+
+            <article>
+                <h3>Artículo 3</h3>
+            </article>
+
+    </section>
+
+    <footer> <!--Footer es la parte de abajo de una página web-->
+        <h2>
+            <a href="https://sena.territorio.la/cms/index.php">Ir a SENA</a>
+        </h2>
+    </footer>
+
+</body>
+</html>

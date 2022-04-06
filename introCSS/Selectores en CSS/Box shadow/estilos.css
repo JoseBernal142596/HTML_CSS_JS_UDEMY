@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc; /*el primer valor es el eje x, el segundo el eje y y el último es la difuminación*/
+    color: #e63946;
+}
+
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+    box-shadow:  2px 2px 2px 2px gray; /*Los tres valor funcionan igual al text shadow pero el ultimo
+    consiste en la expansión de la sombra*/
+    color: #457b9d;
+    border-radius: 12px;
+}
+
+div.contenido{
+    background-color: #4cc9f0;
+}
+
+div.cabecero{
+    padding-top: 2px;
+    font-size: 1.2em;
+    font-weight: bolder;
+}

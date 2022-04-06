@@ -1,0 +1,47 @@
+header{
+    color: #f72585;
+    text-align: center;
+    font-size: 20px;
+}
+
+nav{
+    width:20%;
+    float:left;
+}
+
+nav a{
+    background-color: rgb(54, 54, 109);
+    margin: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 10px 0 10px 0;
+    text-decoration:none;
+    display: block;
+}
+
+section{
+    float:right;
+    width:75%;
+    color: rgb(240, 144, 0);
+    border-radius: 5px;
+    box-shadow: 1px 0 4px rgb(0, 0, 0, .2);
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+aside{
+    float:right;
+    width:30%;
+    margin: 5px;
+    padding: 5px;
+    font-style: italic;
+    color: rgb(240, 144, 0);
+    box-shadow: inset  5px 0 5px  -5px rgb(240, 144, 0);
+    /*Usamos inset cuando queremos que el efecto se vea internamente y 5px 0 5px  -5px para que se vea vertical en un solo lado */
+}
+
+footer{
+    clear: both; /*Utilizamos clear: both; para indicar que queremos limpiar lo que está cerca del footer*/
+    padding: 1px;
+    text-align: center;
+}

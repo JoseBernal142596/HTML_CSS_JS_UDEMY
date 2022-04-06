@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&effect=fire-animation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+/*Así se importan las fuentes desde Google Fonts (ellos dan los códigos)*/
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto|'Architecs daughter'&display=swap');*/
+/*Así se importan dos o más fuentes en un solo link*/
+/*@import url('https://fonts.googleapis.com/css?family=Roboto|'Architecs daughter'&effect=shadow-multiple&display=swap');*/
+/*Así se grengan lso efetos a las fuentes importadas*/
+
+/*Este es el link para los efectos: https://developers.google.com/fonts/docs/getting_started?hl=en*/
+/*Tiene que ser sin css2, es decir, solo css*/
+h1 {
+    font-family: 'Roboto', sans-serif;
+    /*Así se agregan las fuentes importadas*/
+}
+
+.architects_daughter{
+    font-family: 'Architects Daughter', cursive;
+}

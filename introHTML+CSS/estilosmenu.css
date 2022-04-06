@@ -1,0 +1,30 @@
+h1{
+    color:goldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul{
+    list-style-type: none;
+    /*list-style-type: son los puntos que están en las listas desordenadas, en este caso se los estamos quitando;*/
+    background-color: cadetblue;
+    overflow: hidden;
+    /*Utilizamos overflow:hidden para indicar que la lista (menú) va arriba */
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+    /*float:left lo utilizamos cuando queremos colocar una lista en horizontal*/
+}
+li a{
+    /*Utilizamos li a para seleccionar los links que están en la lista*/
+    display: block;
+    color:cornsilk;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:#1d3557;
+}
+

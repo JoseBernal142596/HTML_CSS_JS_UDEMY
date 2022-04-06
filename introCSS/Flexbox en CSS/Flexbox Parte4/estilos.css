@@ -1,0 +1,24 @@
+div.contenedor{
+    display: flex;
+    background-color: #560bad;
+    flex-direction:row; /*Esta es la dirección del contenido por defecto*/
+    flex-wrap: wrap;/*Utilizamos wrap para que nuestros elementos se acomoden a la pantalla*/
+   /*justify-content: flex-end ; /*Esta va a ir al final del flexbox*/
+   /*justify-content: space-between; este quedael espacio entre los elementos del flexbox*/
+   justify-content: center; /*Los elementos van a ir centrados*/
+   /*justify-content: flex-end; Texto a la derecha*/
+   /*justify-content: space-around;  sirve para agregar espacio alrededor del elemento*/
+   /*justify-content: space-evenly sirve para dejar el mismo espacio entre los elementos;*/
+   height: 300px;
+   align-items: center;/*sirve para alinear elementos en el eje y en este casp al inicio*/
+   align-content: center; /*acá podemos alinear los textos de manera vertical*/
+
+}
+
+div.contenedor>p{
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}

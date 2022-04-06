@@ -1,0 +1,108 @@
+h1 {
+    text-align:center;
+    color:orangered;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+div{
+    font-family: Arial;
+}
+
+.borde_punteado-dotted{
+    border-style:dotted;
+    font-family:Arial;
+}
+
+.discontinuo{
+    border-style: dashed;
+}
+
+.solido{
+    border-style: solid;
+}
+
+.doble{
+    border-style: double;
+}
+
+.surco{
+    border: 10px groove;
+
+}
+
+.cresta{
+    border: 10px ridge;
+}
+
+.recuadro{
+    border: 10px inset;
+}
+
+.outset{
+    border: 10px outset;
+}
+
+.sin_borde{
+    border: none; 
+}
+
+.oculto{
+    border: hidden;
+}
+
+.mixto{
+    border-style: dotted solid dashed double;
+    /*El orden es superior derecho abajo izquierdo*/
+}
+
+.ancho_bordes{
+    border: dotted;
+    border-width: 10px 5px 3px 2px;
+    /*Estos son los bordes para cada parte del margen, es decir:border: 
+    10px (arriba) 5px (derecha) 3px (abajo) 2px (izquierda)
+    */
+
+    /*Si se aplican solamente 3 medidas (ejemplo: border-width: 10px 5px 3px;) 
+    Serían: 10px (arriba) 5px (izquierda y derecha) y 3px (abajo)*/
+
+    /*Si solo de aplican 2 medidas (ejemplo: border-width: 10px 5px;)
+    Serían: 10px (Arriba y abajo) 5px (derecha e izquierda)
+    */
+
+}
+
+.delgado-total{
+    border:solid;
+    border-width: thin;
+}
+
+.mediano-total{
+    border: solid;
+    border-width: medium;
+}
+
+.grueso-total{
+    border: solid;
+    border-width: thick;
+}
+
+.color-borde{
+
+    border-style: double;
+    border-color: brown blue yellow lime;
+}
+
+.redondeo{
+    border-style: double;
+    border-width: 5px;
+    border-radius: 20px;
+
+}
+
+.redondeo2{
+    border-style: double;
+    border-width: 5px;
+    border-radius: 20px 0px 10px 0px;
+   /*20px (esquina superior izquierda) 0px (esquina superior derecha) 10px (esquina inferior derecha) 0px (esquina inferior izquierda)*/
+   /*Entre mayor sea el px mayor será el redondeo*/
+}

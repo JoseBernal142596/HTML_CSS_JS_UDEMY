@@ -1,0 +1,12 @@
+h1 {
+    text-align:center;
+    color:darkcyan;
+}
+div{
+    position: static; /*Con posicionamiento static no hay ningún cambio ya que son los mismos valores*/
+    border: 3px solid firebrick;
+    width: 50%;
+    margin:auto;
+
+
+}

@@ -1,0 +1,30 @@
+body {
+    background-color: beige;
+    background-image: url(imagenes/fondo2.jpg);
+}
+
+h1{
+    color: blanchedalmond;
+    font-family: cursive;
+    background-image: url(imagenes/fondo2)
+}
+
+h2{
+    color: blanchedalmond;
+    font-family: cursive;
+    background-image: url(imagenes/fondo2)
+}
+
+a:link, a:visited{
+   background-color:olive;
+   color : white;
+   padding: 15px 25px;
+   text-align: center;
+   text-decoration: none;
+   font-family: cursive;
+}
+
+a:hover,a:active{
+    background-color:rgb(213, 247, 20);
+    color : black;
+}

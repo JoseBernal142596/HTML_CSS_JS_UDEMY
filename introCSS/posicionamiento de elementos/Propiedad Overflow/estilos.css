@@ -1,0 +1,15 @@
+h1{
+    color: darkgoldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.contenedor{
+    border: 3px dashed goldenrod;
+    width: 30%;
+    height: 150px;
+    margin: auto;
+    /*overflow: visible; este quiere decir que todos los elementos que están afuera de nuestro cuadro se  van a ver*/
+    /*overflow: hidden; /*En este overflow los elementos que se salen del recuadro van a estar ocultos*/
+    /*overflow: scroll; En este caso, todos los elementos que salen se pueden ver pero con las flechas por lo que no se salen del recuadro*/
+    overflow: auto;/*Funciona igual que scroll con la diferencia de que muestra las flechas para ver los elementos en caso de que sea necesario*/
+}
